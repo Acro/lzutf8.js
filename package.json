@@ -1,33 +1,90 @@
 {
-	"name": "lzutf8-build",
-	"version": "0.3.5",
-	"description": "A high-performance string compression library",
-	"author": "Rotem Dan <rotemdan@gmail.com>",
-	"homepage": "https://github.com/rotemdan/lzutf8.js",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/rotemdan/lzutf8.js.git"
-	},
-	"license": "MIT",
-	"private": true,
-	"devDependencies": {
-		"grunt": "^0.4.5",
-		"grunt-contrib-clean": "^1.0.0",
-		"grunt-contrib-concat": "^1.0.0",
-		"grunt-contrib-copy": "^1.0.0",
-		"grunt-contrib-uglify": "^1.0.0",
-		"grunt-contrib-watch": "^1.0.0",
-		"grunt-shell": "^1.1.2",
-		"grunt-ts": "^5.5.0-beta.2",
-		"grunt-update-json": "^0.2.2",
-		"load-grunt-tasks": "^3.4.0",
-		"typescript": "^1.8.2",
-		
-		"mocha": "^2.4.5",
-		"grunt-mocha-test": "^0.12.7",
-		"expectations": "^0.6.0"
-	},
-	"scripts": {
-		"test": "grunt test --verbose"
-	}
+  "_args": [
+    [
+      {
+        "raw": "lzutf8",
+        "scope": null,
+        "escapedName": "lzutf8",
+        "name": "lzutf8",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/Users/Acro/work/smartlook/record-renderer"
+    ]
+  ],
+  "_from": "lzutf8@latest",
+  "_id": "lzutf8@0.3.5",
+  "_inCache": true,
+  "_location": "/lzutf8",
+  "_nodeVersion": "6.3.0",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/lzutf8-0.3.5.tgz_1468242998083_0.4736058861017227"
+  },
+  "_npmUser": {
+    "name": "rotemdan",
+    "email": "rotemdan@gmail.com"
+  },
+  "_npmVersion": "3.10.3",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "lzutf8",
+    "scope": null,
+    "escapedName": "lzutf8",
+    "name": "lzutf8",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/lzutf8/-/lzutf8-0.3.5.tgz",
+  "_shasum": "c4e0237c6b22942ea084909b7f4033d28b25d24d",
+  "_shrinkwrap": null,
+  "_spec": "lzutf8",
+  "_where": "/Users/Acro/work/smartlook/record-renderer",
+  "author": {
+    "name": "Rotem Dan",
+    "email": "rotemdan@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/rotemdan/lzutf8.js/issues"
+  },
+  "dependencies": {},
+  "description": "A high-performance string compression library",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "c4e0237c6b22942ea084909b7f4033d28b25d24d",
+    "tarball": "https://registry.npmjs.org/lzutf8/-/lzutf8-0.3.5.tgz"
+  },
+  "homepage": "https://github.com/rotemdan/lzutf8.js",
+  "keywords": [
+    "compression",
+    "string compression",
+    "text compression",
+    "lz77",
+    "utf8",
+    "utf-8"
+  ],
+  "license": "MIT",
+  "main": "lzutf8.js",
+  "maintainers": [
+    {
+      "name": "rotemdan",
+      "email": "rotemdan@gmail.com"
+    }
+  ],
+  "name": "lzutf8",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rotemdan/lzutf8.js.git"
+  },
+  "scripts": {},
+  "version": "0.3.5"
 }
